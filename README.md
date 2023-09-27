@@ -1,1 +1,1 @@
-# npx-create-react-app
+## https://housingmagic-blog.netlify.app/
