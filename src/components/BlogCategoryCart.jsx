@@ -9,7 +9,7 @@ function BlogCategoryCart({ blog }) {
         <div className="blogCategoryCardDate">{blog.createdAt}</div>
       </div>
       <h2 className="blogCategoryCardTitle">
-        <a href="https://www.housingmagic.com">{blog.title}</a>
+        <a href="https://housingmagic-blog.netlify.app/post">{blog.title}</a>
       </h2>
     </div>
   );
