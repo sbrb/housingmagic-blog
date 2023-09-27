@@ -12,13 +12,10 @@ function CategoryPage() {
           <BlogCategoryCart key={index} blog={blog} />
         ))}
       </div>
-      <div className="categoryPageRight categoryPageRight2">
+      <div className="categoryPageRight">
         {propertyPostSearchData.map((postSearch, index) => (
           <PostProperty key={index} postSearch={postSearch} />
         ))}
-
-        {/* <PostProperty />
-        <PostProperty /> */}
       </div>
     </div>
   );

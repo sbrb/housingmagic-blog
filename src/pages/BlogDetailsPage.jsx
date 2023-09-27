@@ -7,11 +7,10 @@ import propertyPostSearchData from "../data/propertyPostSearchData";
 
 function BlogDetailsPage() {
   return (
-    <div className="BlogDetailsPage" style={{ maxWidth: "1300px" }}>
+    <div className="BlogDetailsPage" >
       <img
         src="https://img.staticmb.com/mbcontent/images/uploads/2022/6/centre-table-design.jpg"
         alt=""
-        style={{ maxWidth: "1300px" }}
       />
       <div className="BlogDetailsPageLower">
         <BlogDetails />

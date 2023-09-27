@@ -3,7 +3,9 @@ import React from "react";
 function BlogCategoryCart({ blog }) {
   return (
     <div className="blogCategoryCard">
-      <img src={blog.imageUrl} className="blogCategoryCardImg" alt="" />
+      <div className="blogCategoryCardImgHolder">
+        <img src={blog.imageUrl} className="blogCategoryCardImg" alt="" />
+      </div>
       <div className="blogCategoryTagDate">
         <div className="blogCategoryCardTag">{blog.category}</div>
         <div className="blogCategoryCardDate">{blog.createdAt}</div>
